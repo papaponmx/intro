@@ -1,0 +1,48 @@
+ul {
+    width: 300px;
+}
+
+li {
+    background-color: blue;
+    width: 75%;    
+}
+
+/* h1 {
+    color: tomato;
+} */
+
+
+/* ID  */
+#btn-especial {
+    color: yellow;
+}
+
+
+/* CLASSES */
+
+
+.btn {
+ background: blueviolet;
+ border: 2px solid gray;
+ border-radius: 10px;
+ box-shadow: 2px 2px black;
+ color: white; 
+ margin-bottom: 10px;
+ width: 250px;
+ height: 50px;
+}
+
+/* PSEUDO: Classes */
+
+a:hover {
+    background-color: palegoldenrod;
+    color: paleturquoise;    
+}
+
+li:first-child {
+    background-color:tomato;
+}
+
+li:nth-child(2) {
+    background-color: turquoise;
+}
